@@ -7,18 +7,7 @@ const App = () => {
     <div className="relative">
       <div className="flex items-center justify-center gap-5 mt-20">
         <main className="flex flex-col gap-5 w-[595px] mt-20">
-          <div
-            className="loginfont-[700] text-[80px] font-montserrat"
-            style={{
-              color: "white",
-              textShadow: `
-              -2px -2px 0 ${shadowColor},
-               2px -2px 0 ${shadowColor},
-               -2px 2px 0 ${shadowColor},
-                2px 2px 0 ${shadowColor}
-            `,
-            }}
-          >
+          <div className="login font-[700] text-[80px] font-montserrat text-white">
             LOGIN
           </div>
           <div className="flex flex-col gap-5">

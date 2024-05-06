@@ -5,3 +5,7 @@
 .relative {
   position: relative;
 }
+.login {
+  font-family: "Montserrat", sans-serif;
+  -webkit-text-stroke: 3px #da211c;
+}
